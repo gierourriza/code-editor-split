@@ -18,13 +18,9 @@
 }
 
 div #output{
-    float: right;
-    margin-left: 180px;
-    margin-top: -310px;
+    position: absolute;
 }
-#output h3{
-    padding-left: 60px;
-}
+
 
 .cells {
     height: 100%;
