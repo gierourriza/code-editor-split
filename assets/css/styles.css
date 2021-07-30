@@ -1,0 +1,50 @@
+
+.container {
+    background: #272822;
+    margin: 0px auto;
+    outline: 1px dotted green;
+    width: 900px;
+}
+.container #editor {
+    width: inherit;
+}
+.container #test_cases div {
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    height: 100%;
+    margin-left: 2%;  
+    vertical-align: top;
+}
+
+div #output{
+    float: right;
+    margin-left: 180px;
+    margin-top: -310px;
+}
+#output h3{
+    padding-left: 60px;
+}
+
+.cells {
+    height: 100%;
+    width: 100%;
+}
+
+.gutter {
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+.gutter.gutter-horizontal {
+    background-color: #444;
+    background-image: url("../../assets/images/vertical.png");
+    cursor: col-resize;
+}
+
+.gutter.gutter-vertical {
+    background-color: #444;
+    background-image: url("../../assets/images/horizontal.png");
+    cursor: row-resize;
+}
+
