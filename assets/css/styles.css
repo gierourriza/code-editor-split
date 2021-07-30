@@ -14,13 +14,17 @@
     font-size: 12px;
     height: 100%;
     margin-left: 2%;  
+    width: inherit;
     vertical-align: top;
 }
 
 div #output{
-    position: absolute;
+   position: absolute;
+   
 }
-
+/* #output h3{
+    padding-left: 60px;
+} */
 
 .cells {
     height: 100%;
